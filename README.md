@@ -10,7 +10,7 @@ See [official docs](https://www.truenas.com/docs/api/scale_websocket_api.html#we
 
 ```bash
 docker run --rm -it \
-  davidecavestro/midclt \
+  ghcr.io/davidecavestro/midclt \
   --uri 'ws://my.truenas/websocket' \
   --api-key 'THEAPIKEY' call system.info 
 ```
